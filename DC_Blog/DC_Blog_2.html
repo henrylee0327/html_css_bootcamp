@@ -46,11 +46,17 @@
     
             button {
                 text-align: center;
+                display: inline-block;
                 font-size: 20px;
                 padding: 5px;
-                margin: 0;
+                margin: 0 auto;
                 background-color:dodgerblue;
                 color:white;
+                text-decoration: none;
+            }
+            .button {
+                margin: 0 auto;
+                text-align:center;
             }
         </style>
         <style>
@@ -58,9 +64,19 @@
                 list-style-type: none;
                 display: inline-block;
                 width: 100px;
-                font-size: 15px;
+                font-size: 20px;
                 color:gray;
                 text-align:initial;
+            }
+            /* .footer {
+                list-style-type: none;
+                display: inline-block;
+            } */
+        </style>
+        <style>
+            .footer {
+                text-align: center;
+                font-size: px;
             }
         </style>
     </head>
@@ -71,11 +87,11 @@
                 <li>About</li>
                 <li>Flow</li>
             </ul>
-        </h1> <br /><br /><br />
+        </h1><br /><br /><br />
         <h2>Fake it 'til you Make it:<br />
         A Developer's Story</h2><br /><br />
         <h4>August 28, 2017</h4>
-        <button>Follow @DigitalCrafts</button>
+        <div class = "button"><button>Follow @DigitalCrafts</button></div>
         <p class = "p1">Bacon ipsum dolor amet strip steak alcatra bresaola, turducken turkey prosciutto ball tip pastrami tongue kevin pig sausage landjaeger pork chop. Pig burgdoggen pork loin tail kielbasa chuck shoulder beef spare ribs cow ham hock. Leberkas meatball hamburger flank pork belly kevin. Chicken alcatra pastrami, ribeye short loin corned beef t-bone venison frankfurter burgdoggen pork meatball pork loin picanha tri-tip. Pork kielbasa drumstick, alcatra spare ribs shank swine flank burgdoggen. Porchetta meatball fatback ham hock picanha frankfurter. Short ribs sausage beef turkey, filet mignon chislic landjaeger ribeye pork.</p>
         <p class = "p2">Bacon pork belly jerky, andouille tail beef meatball porchetta ribeye chislic. Landjaeger frankfurter bresaola spare ribs bacon brisket cupim chicken pancetta. Boudin tenderloin pork belly pig. Beef corned beef pancetta ham hock flank. Hamburger buffalo chislic, prosciutto drumstick pork salami capicola cow pork loin bacon meatloaf short ribs. Ham hock bacon short ribs, t-bone spare ribs jowl short loin chicken prosciutto kevin ham.</p>
         <p class = "p3">Prosciutto leberkas tongue, short loin boudin short ribs frankfurter porchetta flank. Ham hamburger pork loin kielbasa. Bresaola beef ribs doner rump. Pork belly sausage kielbasa chicken capicola bresaola. Strip steak drumstick kevin chislic pork loin prosciutto. Pork tenderloin chislic tri-tip corned beef. Filet mignon andouille boudin hamburger strip steak pig meatball sausage.
@@ -86,14 +102,21 @@
         </p>
         </p>
         </p>
-    </body>
-    <footer>
         <br />
         <hr />
+        <!-- <ul class = "footer">
+            <li>Subscribe</li>
+            <li>Previous</li>
+            <li>Next</li>
+        </ul> -->
+    </body>
+    <footer>
         <ul>
             <li>Subscribe</li>
             <li>Previous</li>
             <li>Next</li>
         </ul>
+        <br />
+        <p class = "footer">&copy; 2017 DigitalCrafts, Inc.</p>
     </footer>
 </html>
